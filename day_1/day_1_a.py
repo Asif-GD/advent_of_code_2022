@@ -16,7 +16,7 @@ def most_calories_by_an_elf():
     total_calories_of_current_elf = 0
     highest_calorie_count = 0
 
-    with open("a_input.txt") as input_file:
+    with open("1_input.txt") as input_file:
         for line in input_file:
             if line.isspace():
                 # an empty line in the input file indicates the end of the current elf's inventory.
