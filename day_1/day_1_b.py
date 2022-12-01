@@ -5,7 +5,7 @@ and stored to a variable - 'total_calories_of_current_elf'
 2. when a line break is encountered in the input file, the current value of the variable 'total_calories_of_current_elf'
 is added to the 'calories_list'
 3. at the end of the input file, the 'calories_list' is sorted in the descending order and
-the 'highest_calorie_count' of top three elves is the total of the first three items in the calories list
+the 'highest_calorie_count' of top three elves is the total of the first three items in the 'calories_list'
 
 """
 
