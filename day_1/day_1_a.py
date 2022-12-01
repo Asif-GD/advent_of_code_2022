@@ -7,7 +7,7 @@ is compared with another variable - 'highest_calorie_count'
 3. if highest_calorie_count < total_calories_of_current_elf:
     highest_calorie_count = total_calories_of_current_elf
 4. total_calories_of_current_elf is reinitialized to 0 at every encounter of an empty line in the input file.
-4. this continues until the end of the input file.
+5. this continues until the end of the input file.
 
 """
 

@@ -3,11 +3,9 @@ ALGORITHM:
 1. lines from the input file is read, added with the value of the previous line
 and stored to a variable - 'total_calories_of_current_elf'
 2. when a line break is encountered in the input file, the current value of the variable 'total_calories_of_current_elf'
-is compared with another variable - 'highest_calorie_count'
-3. if highest_calorie_count < total_calories_of_current_elf:
-    highest_calorie_count = total_calories_of_current_elf
-4. total_calories_of_current_elf is reinitialized to 0 at every encounter of an empty line in the input file.
-4. this continues until the end of the input file.
+is added to the 'calories_list'
+3. at the end of the input file, the 'calories_list' is sorted in the descending order and
+the 'highest_calorie_count' of top three elves is the total of the first three items in the calories list
 
 """
 
