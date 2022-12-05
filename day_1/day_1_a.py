@@ -26,7 +26,7 @@ def most_calories_by_an_elf():
             else:
                 total_calories_of_current_elf += int(line)
 
-    print(highest_calorie_count)
+    return highest_calorie_count
 
 
-most_calories_by_an_elf()
+print(most_calories_by_an_elf())

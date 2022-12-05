@@ -26,7 +26,8 @@ def most_calories_by_an_elf():
 
     calories_list.sort(reverse=True)
     highest_calorie_count = calories_list[0] + calories_list[1] + calories_list[2]
-    print(highest_calorie_count)
+
+    return highest_calorie_count
 
 
-most_calories_by_an_elf()
+print(most_calories_by_an_elf())
