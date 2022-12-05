@@ -73,5 +73,4 @@ def find_overlapped_assignment_pairs():
     return overlapped_assignment_pairs
 
 
-number_of_overlapped_assignment_pairs = find_overlapped_assignment_pairs()
-print(number_of_overlapped_assignment_pairs)
+print(find_overlapped_assignment_pairs())
