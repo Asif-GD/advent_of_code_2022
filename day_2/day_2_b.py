@@ -27,5 +27,4 @@ def final_score():
     return score
 
 
-score_of_all_games = final_score()
-print(score_of_all_games)
+print(final_score())
