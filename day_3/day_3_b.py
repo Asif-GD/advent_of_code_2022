@@ -72,5 +72,4 @@ def calculate_total_item_priority():
     return total_priority
 
 
-total_badge_item_priority = calculate_total_item_priority()
-print(total_badge_item_priority)
+print(calculate_total_item_priority())

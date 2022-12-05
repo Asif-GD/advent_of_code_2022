@@ -102,8 +102,7 @@ def calculate_total_item_priority():
     return total_priority
 
 
-total_item_priority = calculate_total_item_priority()
-print(total_item_priority)
+print(calculate_total_item_priority())
 
 """
 test -> def get_two_rucksacks(line_from_input_file):
